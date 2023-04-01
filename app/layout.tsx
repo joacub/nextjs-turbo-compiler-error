@@ -32,7 +32,7 @@ export default function RootLayout({
               Created by the <b>Next.js</b>
               {' team at '}
               <a href="https://vercel.com">
-                <b>Vercel</b>
+                <b>Vercela</b>
               </a>
               {'. '}
               <a

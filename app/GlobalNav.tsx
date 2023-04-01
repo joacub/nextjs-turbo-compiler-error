@@ -4,9 +4,17 @@ import { demos } from '@/lib/demos';
 import clsx from 'clsx';
 import { useSelectedLayoutSegments } from 'next/navigation';
 import Link from 'next/link';
+import rest from '@feathersjs/rest-client';
+import io from 'socket.io-client';
+import { useEffect } from 'react';
 
 export default function GlobalNav() {
   const [selectedLayoutSegments] = useSelectedLayoutSegments();
+
+  useEffect(() => {
+    rest('');
+    io();
+  }, []);
 
   return (
     <div className="space-y-5">
